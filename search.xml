@@ -31,17 +31,6 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/css/modify.css"/>
       <url>/css/modify.css</url>
@@ -87,6 +76,28 @@
     
     <entry>
       <title></title>
+      <link href="/css/navShowTitle.css"/>
+      <url>/css/navShowTitle.css</url>
+      
+        <content type="html"><![CDATA[/*显示标题*/#page-name::before {    font-size: 18px;    position: absolute;    width: 100%;    height: 100%;    border-radius: 8px;    color: white !important;    top: 0;    left: 0;    background-color: var(--lyx-theme);    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;    opacity: 0;    box-shadow: 0 0 3px var(--lyx-theme);    line-height: 45px;    /*如果垂直位置不居中可以微调此值，也可以删了*/}#page-name:hover:before {    opacity: 1;}@media screen and (max-width:900px) {    #page-name,    #menus {        display: none !important;    }}#name-container {    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;}#name-container:hover {    scale: 1.03}#page-name {    position: relative;    padding: 10px 30px}#nav {    padding: 0 20px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/navRight.css"/>
       <url>/css/navRight.css</url>
       
@@ -109,17 +120,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/navShowTitle.css"/>
-      <url>/css/navShowTitle.css</url>
-      
-        <content type="html"><![CDATA[/*显示标题*/#page-name::before {    font-size: 18px;    position: absolute;    width: 100%;    height: 100%;    border-radius: 8px;    color: white !important;    top: 0;    left: 0;    background-color: var(--lyx-theme);    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;    opacity: 0;    box-shadow: 0 0 3px var(--lyx-theme);    line-height: 45px;    /*如果垂直位置不居中可以微调此值，也可以删了*/}#page-name:hover:before {    opacity: 1;}@media screen and (max-width:900px) {    #page-name,    #menus {        display: none !important;    }}#name-container {    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;}#name-container:hover {    scale: 1.03}#page-name {    position: relative;    padding: 10px 30px}#nav {    padding: 0 20px;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/custom.js"/>
       <url>/js/custom.js</url>
       
@@ -131,10 +131,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/grayscale.js"/>
-      <url>/js/grayscale.js</url>
+      <link href="/js/footer.js"/>
+      <url>/js/footer.js</url>
       
-        <content type="html"><![CDATA[//公祭日变灰色if (PublicSacrificeDay()) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");}function PublicSacrificeDay() {    var PSFarr = new Array("0403", "0404", "0405", "0406", "0414", "0512", "0707", "0807", "0814", "0909", "0918", "0930", "1025", "1213");    //2020年4月4日 新冠肺炎哀悼日，清明节    //2010年4月14日，青海玉树地震    //2008年5月12日，四川汶川地震    //1937年7月7日,七七事变 又称卢沟桥事变    //2010年8月7日，甘肃舟曲特大泥石流    //8月14日，世界慰安妇纪念日    //1976年9月9日，毛主席逝世    //1931年9月18日，九一八事变    //烈士纪念日为每年9月30日    //1950年10月25日，抗美援朝纪念日    //1937年12月13日，南京大屠杀    var currentdate = new Date();    var str = "";    var mm = currentdate.getMonth() + 1;    if (currentdate.getMonth() > 9) {        str += mm;    } else {        str += "0" + mm;    }    if (currentdate.getDate() > 9) {        str += currentdate.getDate();    } else {        str += "0" + currentdate.getDate();    }    if (PSFarr.indexOf(str) > -1) {        return 1;    } else {        return 0;    }}]]></content>
+        <content type="html"><![CDATA[// 页脚倒计时setInterval(() => {    // let create_time = Math.round(new Date('2021-10-15 00:00:00').getTime() / 1000); //在此行修改建站时间    // 有苹果用户发现safari浏览器不能正常运行，百度了一下发现是格式化的问题，改成下面这种应该就可以了。感谢反馈。    let create_time = Math.round(new Date('2023/8/10 22:22:22').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);    var nol = function(h) {        return h > 9 ? h : '0' + h;    }    if (second >= 365 * 24 * 3600) {        time[0] = parseInt(second / (365 * 24 * 3600));        second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {        time[1] = parseInt(second / (24 * 3600));        second %= 24 * 3600;    }    if (second >= 3600) {        time[2] = nol(parseInt(second / 3600));        second %= 3600;    }    if (second >= 60) {        time[3] = nol(parseInt(second / 60));        second %= 60;    }    if (second >= 0) {        time[4] = nol(second);    }    let currentTimeHtml = ""    if (time[0] != 0) {        currentTimeHtml += time[0] + ' YEAR '    }    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];    document.getElementById("runtime").innerHTML = currentTimeHtml;}, 1000);]]></content>
       
     </entry>
     
@@ -142,10 +142,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/footer.js"/>
-      <url>/js/footer.js</url>
+      <link href="/js/grayscale.js"/>
+      <url>/js/grayscale.js</url>
       
-        <content type="html"><![CDATA[// 页脚倒计时setInterval(() => {    // let create_time = Math.round(new Date('2021-10-15 00:00:00').getTime() / 1000); //在此行修改建站时间    // 有苹果用户发现safari浏览器不能正常运行，百度了一下发现是格式化的问题，改成下面这种应该就可以了。感谢反馈。    let create_time = Math.round(new Date('2023/8/10 22:22:22').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);    var nol = function(h) {        return h > 9 ? h : '0' + h;    }    if (second >= 365 * 24 * 3600) {        time[0] = parseInt(second / (365 * 24 * 3600));        second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {        time[1] = parseInt(second / (24 * 3600));        second %= 24 * 3600;    }    if (second >= 3600) {        time[2] = nol(parseInt(second / 3600));        second %= 3600;    }    if (second >= 60) {        time[3] = nol(parseInt(second / 60));        second %= 60;    }    if (second >= 0) {        time[4] = nol(second);    }    let currentTimeHtml = ""    if (time[0] != 0) {        currentTimeHtml += time[0] + ' YEAR '    }    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];    document.getElementById("runtime").innerHTML = currentTimeHtml;}, 1000);]]></content>
+        <content type="html"><![CDATA[//公祭日变灰色if (PublicSacrificeDay()) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");}function PublicSacrificeDay() {    var PSFarr = new Array("0403", "0404", "0405", "0406", "0414", "0512", "0707", "0807", "0814", "0909", "0918", "0930", "1025", "1213");    //2020年4月4日 新冠肺炎哀悼日，清明节    //2010年4月14日，青海玉树地震    //2008年5月12日，四川汶川地震    //1937年7月7日,七七事变 又称卢沟桥事变    //2010年8月7日，甘肃舟曲特大泥石流    //8月14日，世界慰安妇纪念日    //1976年9月9日，毛主席逝世    //1931年9月18日，九一八事变    //烈士纪念日为每年9月30日    //1950年10月25日，抗美援朝纪念日    //1937年12月13日，南京大屠杀    var currentdate = new Date();    var str = "";    var mm = currentdate.getMonth() + 1;    if (currentdate.getMonth() > 9) {        str += mm;    } else {        str += "0" + mm;    }    if (currentdate.getDate() > 9) {        str += currentdate.getDate();    } else {        str += "0" + currentdate.getDate();    }    if (PSFarr.indexOf(str) > -1) {        return 1;    } else {        return 0;    }}]]></content>
       
     </entry>
     
