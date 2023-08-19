@@ -31,6 +31,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/footer.css"/>
+      <url>/css/footer.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚倒计时 */div#runtime {    position: absolute;    left: 49.8%;    transform: translate(-50%, -50%);    bottom: 0;    width: fit-content;    color: #fff;    padding: 0 10px;    border-radius: 10px;    background-color: rgba(0, 0, 0, 0.7);}[data-theme="dark"] div#runtime {    color: #28b4c8;    box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -43,32 +54,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/footer.css"/>
-      <url>/css/footer.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚倒计时 */div#runtime {    position: absolute;    left: 49.8%;    transform: translate(-50%, -50%);    bottom: 0;    width: fit-content;    color: #fff;    padding: 0 10px;    border-radius: 10px;    background-color: rgba(0, 0, 0, 0.7);}[data-theme="dark"] div#runtime {    color: #28b4c8;    box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/mouse.css"/>
       <url>/css/mouse.css</url>
       
         <content type="html"><![CDATA[/* 鼠标样式 */body {    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default;}a,img {    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/myStyle.css"/>
-      <url>/css/myStyle.css</url>
-      
-        <content type="html"><![CDATA[#web_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}#post_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}/* 侧边栏个人信息卡片动态渐变色 */#aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏公告栏卡片渐变色 */#aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏目录最新文章卡片渐变色 */#aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*文章页面*/.layout>#post {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#post {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*主页文章预览页面*/#recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] #recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*分类页面*/.layout>#page {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#page {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*时间轴页面*/.layout>#archive {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#archive {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}]]></content>
       
     </entry>
     
@@ -98,10 +87,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/navguding.css"/>
-      <url>/css/navguding.css</url>
+      <link href="/css/navShowTitle.css"/>
+      <url>/css/navShowTitle.css</url>
       
-        <content type="html"><![CDATA[/* 导航栏常驻 */.nav-fixed #nav {    transform: translateY(58px)!important;    -webkit-transform: translateY(58px)!important;    -moz-transform: translateY(58px)!important;    -ms-transform: translateY(58px)!important;    -o-transform: translateY(58px)!important;}#nav {    transition: none!important;    -webkit-transition: none!important;    -moz-transition: none!important;    -ms-transition: none!important;    -o-transition: none!important;}]]></content>
+        <content type="html"><![CDATA[/*显示标题*/#page-name::before {    font-size: 18px;    position: absolute;    width: 100%;    height: 100%;    border-radius: 8px;    color: white !important;    top: 0;    left: 0;    background-color: var(--lyx-theme);    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;    opacity: 0;    box-shadow: 0 0 3px var(--lyx-theme);    line-height: 45px;    /*如果垂直位置不居中可以微调此值，也可以删了*/}#page-name:hover:before {    opacity: 1;}@media screen and (max-width:900px) {    #page-name,    #menus {        display: none !important;    }}#name-container {    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;}#name-container:hover {    scale: 1.03}#page-name {    position: relative;    padding: 10px 30px}#nav {    padding: 0 20px;}]]></content>
       
     </entry>
     
@@ -109,10 +98,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/navShowTitle.css"/>
-      <url>/css/navShowTitle.css</url>
+      <link href="/css/myStyle.css"/>
+      <url>/css/myStyle.css</url>
       
-        <content type="html"><![CDATA[/*显示标题*/#page-name::before {    font-size: 18px;    position: absolute;    width: 100%;    height: 100%;    border-radius: 8px;    color: white !important;    top: 0;    left: 0;    background-color: var(--lyx-theme);    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;    opacity: 0;    box-shadow: 0 0 3px var(--lyx-theme);    line-height: 45px;    /*如果垂直位置不居中可以微调此值，也可以删了*/}#page-name:hover:before {    opacity: 1;}@media screen and (max-width:900px) {    #page-name,    #menus {        display: none !important;    }}#name-container {    transition: all .3s;    -webkit-transition: all .3s;    -moz-transition: all .3s;    -ms-transition: all .3s;    -o-transition: all .3s;}#name-container:hover {    scale: 1.03}#page-name {    position: relative;    padding: 10px 30px}#nav {    padding: 0 20px;}]]></content>
+        <content type="html"><![CDATA[#web_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}#post_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}/* 侧边栏个人信息卡片动态渐变色 */#aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏公告栏卡片渐变色 */#aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏目录最新文章卡片渐变色 */#aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*文章页面*/.layout>#post {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#post {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*主页文章预览页面*/#recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] #recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*分类页面*/.layout>#page {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#page {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*时间轴页面*/.layout>#archive {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#archive {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/navguding.css"/>
+      <url>/css/navguding.css</url>
+      
+        <content type="html"><![CDATA[/* 导航栏常驻 */.nav-fixed #nav {    transform: translateY(58px)!important;    -webkit-transform: translateY(58px)!important;    -moz-transform: translateY(58px)!important;    -ms-transform: translateY(58px)!important;    -o-transform: translateY(58px)!important;}#nav {    transition: none!important;    -webkit-transition: none!important;    -moz-transition: none!important;    -ms-transition: none!important;    -o-transition: none!important;}]]></content>
       
     </entry>
     
@@ -142,10 +142,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/footer.js"/>
-      <url>/js/footer.js</url>
+      <link href="/js/navShowTitle.js"/>
+      <url>/js/navShowTitle.js</url>
       
-        <content type="html"><![CDATA[// 页脚倒计时setInterval(() => {    // let create_time = Math.round(new Date('2021-10-15 00:00:00').getTime() / 1000); //在此行修改建站时间    // 有苹果用户发现safari浏览器不能正常运行，百度了一下发现是格式化的问题，改成下面这种应该就可以了。感谢反馈。    let create_time = Math.round(new Date('2023/8/10 22:22:22').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);    var nol = function(h) {        return h > 9 ? h : '0' + h;    }    if (second >= 365 * 24 * 3600) {        time[0] = parseInt(second / (365 * 24 * 3600));        second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {        time[1] = parseInt(second / (24 * 3600));        second %= 24 * 3600;    }    if (second >= 3600) {        time[2] = nol(parseInt(second / 3600));        second %= 3600;    }    if (second >= 60) {        time[3] = nol(parseInt(second / 60));        second %= 60;    }    if (second >= 0) {        time[4] = nol(second);    }    let currentTimeHtml = ""    if (time[0] != 0) {        currentTimeHtml += time[0] + ' YEAR '    }    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];    document.getElementById("runtime").innerHTML = currentTimeHtml;}, 1000);]]></content>
+        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function() {    var scroll = $(window).scrollTop();    if (scroll > position) {        document.getElementById("name-container").setAttribute("style", "");        document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");    } else {        document.getElementsByClassName("menus_items")[1].setAttribute("style", "");        document.getElementById("name-container").setAttribute("style", "display:none");    }    position = scroll;});function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
       
     </entry>
     
@@ -163,11 +163,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/navShowTitle.js"/>
-      <url>/js/navShowTitle.js</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function() {    var scroll = $(window).scrollTop();    if (scroll > position) {        document.getElementById("name-container").setAttribute("style", "");        document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");    } else {        document.getElementsByClassName("menus_items")[1].setAttribute("style", "");        document.getElementById("name-container").setAttribute("style", "display:none");    }    position = scroll;});function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -185,20 +185,20 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/footer.js"/>
+      <url>/js/footer.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[// 页脚倒计时setInterval(() => {    // let create_time = Math.round(new Date('2021-10-15 00:00:00').getTime() / 1000); //在此行修改建站时间    // 有苹果用户发现safari浏览器不能正常运行，百度了一下发现是格式化的问题，改成下面这种应该就可以了。感谢反馈。    let create_time = Math.round(new Date('2023/8/10 22:22:22').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);    var nol = function(h) {        return h > 9 ? h : '0' + h;    }    if (second >= 365 * 24 * 3600) {        time[0] = parseInt(second / (365 * 24 * 3600));        second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {        time[1] = parseInt(second / (24 * 3600));        second %= 24 * 3600;    }    if (second >= 3600) {        time[2] = nol(parseInt(second / 3600));        second %= 3600;    }    if (second >= 60) {        time[3] = nol(parseInt(second / 60));        second %= 60;    }    if (second >= 0) {        time[4] = nol(second);    }    let currentTimeHtml = ""    if (time[0] != 0) {        currentTimeHtml += time[0] + ' YEAR '    }    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];    document.getElementById("runtime").innerHTML = currentTimeHtml;}, 1000);]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
