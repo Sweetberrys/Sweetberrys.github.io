@@ -32,17 +32,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/modify.css"/>
-      <url>/css/modify.css</url>
-      
-        <content type="html"><![CDATA[#page-header,#page-header:before {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/footer.css"/>
       <url>/css/footer.css</url>
       
@@ -54,10 +43,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/mouse.css"/>
-      <url>/css/mouse.css</url>
+      <link href="/css/modify.css"/>
+      <url>/css/modify.css</url>
       
-        <content type="html"><![CDATA[/* 鼠标样式 */body {    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default;}a,img {    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;}]]></content>
+        <content type="html"><![CDATA[#page-header,#page-header:before {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
       
     </entry>
     
@@ -69,6 +58,17 @@
       <url>/css/myStyle.css</url>
       
         <content type="html"><![CDATA[#web_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}#post_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}/* 侧边栏个人信息卡片动态渐变色 */#aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏公告栏卡片渐变色 */#aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏目录最新文章卡片渐变色 */#aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*文章页面*/.layout>#post {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#post {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*主页文章预览页面*/#recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] #recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*分类页面*/.layout>#page {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#page {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*时间轴页面*/.layout>#archive {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#archive {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/mouse.css"/>
+      <url>/css/mouse.css</url>
+      
+        <content type="html"><![CDATA[/* 鼠标样式 */body {    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default;}a,img {    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;}]]></content>
       
     </entry>
     
@@ -97,17 +97,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/navguding.css"/>
-      <url>/css/navguding.css</url>
-      
-        <content type="html"><![CDATA[/* 导航栏常驻 */.nav-fixed #nav {    transform: translateY(58px)!important;    -webkit-transform: translateY(58px)!important;    -moz-transform: translateY(58px)!important;    -ms-transform: translateY(58px)!important;    -o-transform: translateY(58px)!important;}#nav {    transition: none!important;    -webkit-transition: none!important;    -moz-transition: none!important;    -ms-transition: none!important;    -o-transition: none!important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -120,10 +109,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/modify.js"/>
-      <url>/js/modify.js</url>
+      <link href="/css/navguding.css"/>
+      <url>/css/navguding.css</url>
       
-        <content type="html"><![CDATA["use strict";const cheerio = require("cheerio");/** * 在页面插入新顶部图 * @param {cheerio.Root} $ Root */function insertTopImg($) {    let header = $("#page-header");    if (header.length === 0) return;    let background = header.css("background-image");    if (!background) return;    $("#post, #page, #archive, #tag, #category").prepend(        `<div class="top-img" style="background-image: ${background};"></div>`    );}hexo.extend.filter.register("after_render:html", function(str, data) {    let $ = cheerio.load(str, {        decodeEntities: false,    });    insertTopImg($);    return $.html();});]]></content>
+        <content type="html"><![CDATA[/* 导航栏常驻 */.nav-fixed #nav {    transform: translateY(58px)!important;    -webkit-transform: translateY(58px)!important;    -moz-transform: translateY(58px)!important;    -ms-transform: translateY(58px)!important;    -o-transform: translateY(58px)!important;}#nav {    transition: none!important;    -webkit-transition: none!important;    -moz-transition: none!important;    -ms-transition: none!important;    -o-transition: none!important;}]]></content>
       
     </entry>
     
@@ -153,28 +142,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/navShowTitle.js"/>
-      <url>/js/navShowTitle.js</url>
-      
-        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function() {    var scroll = $(window).scrollTop();    if (scroll > position) {        document.getElementById("name-container").setAttribute("style", "");        document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");    } else {        document.getElementsByClassName("menus_items")[1].setAttribute("style", "");        document.getElementById("name-container").setAttribute("style", "display:none");    }    position = scroll;});function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/footer.js"/>
       <url>/js/footer.js</url>
       
@@ -196,11 +163,44 @@
     
     
     <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/navShowTitle.js"/>
+      <url>/js/navShowTitle.js</url>
+      
+        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function() {    var scroll = $(window).scrollTop();    if (scroll > position) {        document.getElementById("name-container").setAttribute("style", "");        document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");    } else {        document.getElementsByClassName("menus_items")[1].setAttribute("style", "");        document.getElementById("name-container").setAttribute("style", "display:none");    }    position = scroll;});function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/modify.js"/>
+      <url>/js/modify.js</url>
+      
+        <content type="html"><![CDATA["use strict";const cheerio = require("cheerio");/** * 在页面插入新顶部图 * @param {cheerio.Root} $ Root */function insertTopImg($) {    let header = $("#page-header");    if (header.length === 0) return;    let background = header.css("background-image");    if (!background) return;    $("#post, #page, #archive, #tag, #category").prepend(        `<div class="top-img" style="background-image: ${background};"></div>`    );}hexo.extend.filter.register("after_render:html", function(str, data) {    let $ = cheerio.load(str, {        decodeEntities: false,    });    insertTopImg($);    return $.html();});]]></content>
       
     </entry>
     
