@@ -31,11 +31,11 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/modify.css"/>
+      <url>/css/modify.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[#page-header,#page-header:before {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
       
     </entry>
     
@@ -47,17 +47,6 @@
       <url>/css/footer.css</url>
       
         <content type="html"><![CDATA[/* 页脚倒计时 */div#runtime {    position: absolute;    left: 49.8%;    transform: translate(-50%, -50%);    bottom: 0;    width: fit-content;    color: #fff;    padding: 0 10px;    border-radius: 10px;    background-color: rgba(0, 0, 0, 0.7);}[data-theme="dark"] div#runtime {    color: #28b4c8;    box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/modify.css"/>
-      <url>/css/modify.css</url>
-      
-        <content type="html"><![CDATA[#page-header,#page-header:before {  background: transparent !important;}#page-header.post-bg,#page-header.not-home-page {  height: 280px !important;}#page-header #post-info {  bottom: 40px !important;}#page-header #page-site-info {  top: 140px !important;}@media screen and (max-width: 768px) {  #page-header.not-home-page {    height: 200px !important;  }  #page-header #post-info {    bottom: 10px !important;  }  #page-header #page-site-info {    top: 100px !important;  }}.top-img {  height: 250px;  margin: -50px -40px 50px;  border-top-left-radius: inherit;  border-top-right-radius: inherit;  background-position: center center;  background-size: cover;  -webkit-transition: all 0.3s;  -moz-transition: all 0.3s;  -o-transition: all 0.3s;  -ms-transition: all 0.3s;  transition: all 0.3s;}@media screen and (max-width: 768px) {  .top-img {    height: 230px;    margin: -36px -14px 36px;  }}[data-theme='dark'] .top-img {  filter: brightness(0.8);}#footer:before {  background-color: rgba(255,255,255,0);}[data-theme='dark'] #footer:before {  background-color: rgba(0,0,0,0.5);}#footer-wrap,#footer-wrap a {  color: #111;  -webkit-transition: unset;  -moz-transition: unset;  -o-transition: unset;  -ms-transition: unset;  transition: unset;}[data-theme='dark'] #footer-wrap,[data-theme='dark'] #footer-wrap a {  color: var(--light-grey);}]]></content>
       
     </entry>
     
@@ -80,17 +69,6 @@
       <url>/css/myStyle.css</url>
       
         <content type="html"><![CDATA[#web_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}#post_bg {    background-image: url("../img/弥豆子.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35))}/* 侧边栏个人信息卡片动态渐变色 */#aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-info {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏公告栏卡片渐变色 */#aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.card-widget.card-announcement {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 侧边栏目录最新文章卡片渐变色 */#aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(225, 235, 255, .6), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .6));}[data-theme=dark] #aside-content>.sticky_layout>.card-widget {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/* 个人信息Follow me按钮 */#aside-content>.card-widget.card-info>#card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*文章页面*/.layout>#post {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#post {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*主页文章预览页面*/#recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] #recent-posts>.recent-post-item {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*分类页面*/.layout>#page {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#page {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}/*时间轴页面*/.layout>#archive {    background: linear-gradient(-45deg, rgba(225, 235, 255, .8), rgba(225, 235, 255, .9), rgba(225, 235, 255, .9), rgba(225, 235, 255, .8));}[data-theme=dark] .layout>#archive {    background: linear-gradient(-45deg, rgba(24, 40, 72, .2), rgba(35, 37, 58, .9), rgba(35, 37, 58, .9), rgba(24, 40, 72, .2));}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/custom.js"/>
-      <url>/js/custom.js</url>
-      
-        <content type="html"><![CDATA[// 设置手机端侧边栏隐藏var mobile_sidebar_menus = document.getElementById("sidebar-menus");if (mobile_sidebar_menus) {    var menus_item_child = mobile_sidebar_menus.getElementsByClassName(        "menus_item_child"    );    var menus_expand = mobile_sidebar_menus.getElementsByClassName("expand");    for (var i = 0; i < menus_item_child.length; i++) {        menus_item_child[i].style.display = "none";    }}]]></content>
       
     </entry>
     
@@ -130,33 +108,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/grayscale.js"/>
-      <url>/js/grayscale.js</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[//公祭日变灰色if (PublicSacrificeDay()) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");}function PublicSacrificeDay() {    var PSFarr = new Array("0403", "0404", "0405", "0406", "0414", "0512", "0707", "0807", "0814", "0909", "0918", "0930", "1025", "1213");    //2020年4月4日 新冠肺炎哀悼日，清明节    //2010年4月14日，青海玉树地震    //2008年5月12日，四川汶川地震    //1937年7月7日,七七事变 又称卢沟桥事变    //2010年8月7日，甘肃舟曲特大泥石流    //8月14日，世界慰安妇纪念日    //1976年9月9日，毛主席逝世    //1931年9月18日，九一八事变    //烈士纪念日为每年9月30日    //1950年10月25日，抗美援朝纪念日    //1937年12月13日，南京大屠杀    var currentdate = new Date();    var str = "";    var mm = currentdate.getMonth() + 1;    if (currentdate.getMonth() > 9) {        str += mm;    } else {        str += "0" + mm;    }    if (currentdate.getDate() > 9) {        str += currentdate.getDate();    } else {        str += "0" + currentdate.getDate();    }    if (PSFarr.indexOf(str) > -1) {        return 1;    } else {        return 0;    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/footer.js"/>
-      <url>/js/footer.js</url>
-      
-        <content type="html"><![CDATA[// 页脚倒计时setInterval(() => {    // let create_time = Math.round(new Date('2021-10-15 00:00:00').getTime() / 1000); //在此行修改建站时间    // 有苹果用户发现safari浏览器不能正常运行，百度了一下发现是格式化的问题，改成下面这种应该就可以了。感谢反馈。    let create_time = Math.round(new Date('2023/8/10 22:22:22').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);    var nol = function(h) {        return h > 9 ? h : '0' + h;    }    if (second >= 365 * 24 * 3600) {        time[0] = parseInt(second / (365 * 24 * 3600));        second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {        time[1] = parseInt(second / (24 * 3600));        second %= 24 * 3600;    }    if (second >= 3600) {        time[2] = nol(parseInt(second / 3600));        second %= 3600;    }    if (second >= 60) {        time[3] = nol(parseInt(second / 60));        second %= 60;    }    if (second >= 0) {        time[4] = nol(second);    }    let currentTimeHtml = ""    if (time[0] != 0) {        currentTimeHtml += time[0] + ' YEAR '    }    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];    document.getElementById("runtime").innerHTML = currentTimeHtml;}, 1000);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/navShowTitle.js"/>
-      <url>/js/navShowTitle.js</url>
-      
-        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function() {    var scroll = $(window).scrollTop();    if (scroll > position) {        document.getElementById("name-container").setAttribute("style", "");        document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");    } else {        document.getElementsByClassName("menus_items")[1].setAttribute("style", "");        document.getElementById("name-container").setAttribute("style", "display:none");    }    position = scroll;});function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -174,11 +130,55 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/custom.js"/>
+      <url>/js/custom.js</url>
+      
+        <content type="html"><![CDATA[// 设置手机端侧边栏隐藏var mobile_sidebar_menus = document.getElementById("sidebar-menus");if (mobile_sidebar_menus) {    var menus_item_child = mobile_sidebar_menus.getElementsByClassName(        "menus_item_child"    );    var menus_expand = mobile_sidebar_menus.getElementsByClassName("expand");    for (var i = 0; i < menus_item_child.length; i++) {        menus_item_child[i].style.display = "none";    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/grayscale.js"/>
+      <url>/js/grayscale.js</url>
+      
+        <content type="html"><![CDATA[//公祭日变灰色if (PublicSacrificeDay()) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");}function PublicSacrificeDay() {    var PSFarr = new Array("0403", "0404", "0405", "0406", "0414", "0512", "0707", "0807", "0814", "0909", "0918", "0930", "1025", "1213");    //2020年4月4日 新冠肺炎哀悼日，清明节    //2010年4月14日，青海玉树地震    //2008年5月12日，四川汶川地震    //1937年7月7日,七七事变 又称卢沟桥事变    //2010年8月7日，甘肃舟曲特大泥石流    //8月14日，世界慰安妇纪念日    //1976年9月9日，毛主席逝世    //1931年9月18日，九一八事变    //烈士纪念日为每年9月30日    //1950年10月25日，抗美援朝纪念日    //1937年12月13日，南京大屠杀    var currentdate = new Date();    var str = "";    var mm = currentdate.getMonth() + 1;    if (currentdate.getMonth() > 9) {        str += mm;    } else {        str += "0" + mm;    }    if (currentdate.getDate() > 9) {        str += currentdate.getDate();    } else {        str += "0" + currentdate.getDate();    }    if (PSFarr.indexOf(str) > -1) {        return 1;    } else {        return 0;    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/navShowTitle.js"/>
+      <url>/js/navShowTitle.js</url>
+      
+        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function() {    var scroll = $(window).scrollTop();    if (scroll > position) {        document.getElementById("name-container").setAttribute("style", "");        document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");    } else {        document.getElementsByClassName("menus_items")[1].setAttribute("style", "");        document.getElementById("name-container").setAttribute("style", "display:none");    }    position = scroll;});function scrollToTop() {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/footer.js"/>
+      <url>/js/footer.js</url>
+      
+        <content type="html"><![CDATA[// 页脚倒计时setInterval(() => {    // let create_time = Math.round(new Date('2021-10-15 00:00:00').getTime() / 1000); //在此行修改建站时间    // 有苹果用户发现safari浏览器不能正常运行，百度了一下发现是格式化的问题，改成下面这种应该就可以了。感谢反馈。    let create_time = Math.round(new Date('2023/8/10 22:22:22').getTime() / 1000); //在此行修改建站时间    let timestamp = Math.round((new Date().getTime()) / 1000);    let second = timestamp - create_time;    let time = new Array(0, 0, 0, 0, 0);    var nol = function(h) {        return h > 9 ? h : '0' + h;    }    if (second >= 365 * 24 * 3600) {        time[0] = parseInt(second / (365 * 24 * 3600));        second %= 365 * 24 * 3600;    }    if (second >= 24 * 3600) {        time[1] = parseInt(second / (24 * 3600));        second %= 24 * 3600;    }    if (second >= 3600) {        time[2] = nol(parseInt(second / 3600));        second %= 3600;    }    if (second >= 60) {        time[3] = nol(parseInt(second / 60));        second %= 60;    }    if (second >= 0) {        time[4] = nol(second);    }    let currentTimeHtml = ""    if (time[0] != 0) {        currentTimeHtml += time[0] + ' YEAR '    }    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];    document.getElementById("runtime").innerHTML = currentTimeHtml;}, 1000);]]></content>
       
     </entry>
     
