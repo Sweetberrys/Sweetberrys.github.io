@@ -73,7 +73,7 @@ favicon: https://img.picgo.net/2024/04/06/browser-logo0a9a9907c8397ed6.png
 
 # Avatar (頭像)
 avatar:
-  img: http://sbgzpdptj.hn-bkt.clouddn.com/%E5%BC%A5%E8%B1%86%E5%AD%90txt.jpeg
+  img: /img/弥豆子txt.jpeg
   effect: false # 头像会转圈
 
 # Disable all banner image

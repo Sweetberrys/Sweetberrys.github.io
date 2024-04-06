@@ -64,7 +64,7 @@ theme: butterfly
 deploy:
   type: git
   repository: https://github.com/Sweetberrys/Sweetberrys.github.io.git
-  branch: main
+  branch: master
 search:
   path: search.xml
   field: all
